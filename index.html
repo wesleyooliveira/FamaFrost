@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script>document.documentElement.classList.add('js');</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instalação e Manutenção de Ar-Condicionado | Fama Frost</title>
+<meta name="description" content="Instalação e manutenção de ar-condicionado em Santo André. Atendimento rápido, direto no WhatsApp. Peça seu orçamento com a Fama Frost agora.">
+<meta name="robots" content="index, follow">
+
+<meta property="og:title" content="Fama Frost | Instalação e Manutenção de Ar-Condicionado em Santo André">
+<meta property="og:description" content="Instalação e manutenção de ar-condicionado em Santo André. Atendimento rápido, direto no WhatsApp.">
+<meta property="og:type" content="business.business">
+<meta property="og:locale" content="pt_BR">
+<!-- <meta property="og:url" content="https://www.frostfama.com.br/"> -->
+<!-- <meta property="og:image" content="https://www.frostfama.com.br/mascote-frostfama.png"> -->
+<!-- <link rel="canonical" href="https://www.frostfama.com.br/"> -->
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%230B5FA5'/%3E%3Ctext x='32' y='44' font-family='Arial, sans-serif' font-size='34' font-weight='700' fill='%23FFFFFF' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HVACBusiness",
+  "name": "Fama Frost",
+  "telephone": "+5511932360145",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Avenida Ampere, 256",
+    "addressLocality": "Santo André",
+    "addressRegion": "SP",
+    "addressCountry": "BR"
+  },
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=Avenida+Ampere+256+Santo+Andre+SP+Brasil"
+}
+</script>
+
+<style>
+  :root{
+    --brand: #075da3;
+    --brand-dark: #084876;
+    --accent: #075da3;
+    --bg: #F7FAFC;
+    --text: #060607;
+    --muted: #2c333a;
+    --white: #ffffff;
+    --border: #E1E8EF;
+    --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  *,*::before,*::after{ box-sizing: border-box; }
+  html{ scroll-behavior: smooth; }
+  body{
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Ubuntu', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1.0625rem;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img{ max-width: 100%; height: auto; display: block; }
+
+  a{ color: inherit; }
+
+  h1,h2,h3{ font-weight: 700; line-height: 1.2; margin: 0 0 16px; }
+  h1{ font-size: clamp(2rem, 5vw, 3.5rem); }
+  h2{ font-size: clamp(1.5rem, 3.4vw, 2.25rem); }
+  h3{ font-size: 1.125rem; }
+
+  p{ margin: 0 0 16px; }
+
+  .container{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  section{ padding: 48px 0; }
+  @media (min-width: 768px){
+    section{ padding: 80px 0; }
+  }
+
+  /* foco visível no teclado */
+  a:focus-visible, button:focus-visible{
+    outline: 3px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  /* ---------- botões ---------- */
+  .btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 44px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: transform 0.2s var(--ease), box-shadow 0.2s var(--ease);
+  }
+  .btn:hover{ transform: translateY(-2px); box-shadow: 0 8px 20px rgba(11,95,165,0.18); }
+
+  .btn-primary{ background: var(--accent); color: #c7db0f; }
+  .btn-outline{ background: transparent; color: var(--brand-dark); border-color: var(--brand); }
+  .btn-outline:hover{ box-shadow: 0 8px 20px rgba(41, 56, 68, 0.12); }
+  .btn-whatsapp{ background: var(--brand); color: var(--white); }
+
+  /* ---------- topo ---------- */
+  header{
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    background: rgba(244, 248, 250, 0.92);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--border);
+  }
+  .topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+  }
+  .marca{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    min-height: 44px;
+    font-weight: 700;
+    color: var(--brand-dark);
+    font-size: 1.125rem;
+  }
+  .marca img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--brand);
+  }
+  .topo .btn{ padding: 10px 16px; font-size: 0.9375rem; }
+
+  /* ---------- animação de entrada ---------- */
+  html.js .revela{
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  .revela{
+    transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
+  }
+  .revela.visivel{
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .revela:nth-child(1){ transition-delay: 0ms; }
+  .revela:nth-child(2){ transition-delay: 80ms; }
+  .revela:nth-child(3){ transition-delay: 160ms; }
+  .revela:nth-child(4){ transition-delay: 240ms; }
+  .revela:nth-child(5){ transition-delay: 320ms; }
+  .revela:nth-child(6){ transition-delay: 400ms; }
+
+  @media (prefers-reduced-motion: reduce){
+    html.js .revela{ opacity: 1; transform: none; }
+    .revela{ transition: none; }
+  }
+
+  /* ---------- hero ---------- */
+  .hero{ padding-top: 56px; }
+  .hero-grid{
+    display: grid;
+    gap: 32px;
+    align-items: center;
+  }
+  @media (min-width: 860px){
+    .hero-grid{
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 48px;
+    }
+  }
+  .hero-cta{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 24px;
+  }
+  .hero-sub{ color: var(--muted); font-size: 1.0625rem; max-width: 46ch; }
+
+  .hero-avatar-wrap{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .hero-avatar-bg{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: min(90%, 360px);
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, var(--brand) 0%, var(--brand-dark) 100%);
+    filter: blur(38px);
+    opacity: 0.55;
+    z-index: 0;
+  }
+  .hero-avatar-float{
+    position: relative;
+    z-index: 1;
+    animation: flutuar-avatar 4.5s ease-in-out infinite;
+  }
+  .hero-avatar-wrap img{
+    display: block;
+    width: min(72%, 320px);
+    margin: 0 auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid var(--white);
+    box-shadow: 0 20px 40px rgba(8,72,118,0.35), 0 0 0 1px rgba(11,95,165,0.15);
+  }
+
+  @keyframes flutuar-avatar{
+    0%, 100%{ transform: translateY(0); }
+    50%{ transform: translateY(-10px); }
+  }
+  @media (prefers-reduced-motion: reduce){
+    .hero-avatar-float{ animation: none; }
+  }
+
+  /* ---------- serviços ---------- */
+  .cards{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    margin-top: 32px;
+  }
+  @media (min-width: 640px){
+    .cards{ grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (min-width: 960px){
+    .cards{ grid-template-columns: repeat(4, 1fr); }
+  }
+  .card{
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 24px;
+    transition: transform 0.2s var(--ease), box-shadow 0.2s var(--ease);
+  }
+  .card:hover{ transform: translateY(-2px); box-shadow: 0 10px 24px rgba(11,95,165,0.10); }
+  .card svg{ width: 32px; height: 32px; color: var(--brand); margin-bottom: 12px; }
+
+  /* ---------- depoimentos ---------- */
+  .depo-grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    margin-top: 32px;
+  }
+  @media (min-width: 860px){
+    .depo-grid{ grid-template-columns: repeat(3, 1fr); }
+  }
+  .depo{
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 24px;
+  }
+  .depo p{ font-size: 0.9375rem; color: var(--text); }
+  .depo .autor{ font-weight: 700; font-size: 0.9375rem; margin-top: 12px; }
+  .depo .marcador{
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 0.75rem;
+    color: var(--muted);
+    background: var(--bg);
+    border: 1px dashed var(--border);
+    padding: 4px 8px;
+    border-radius: 6px;
+  }
+
+  /* ---------- sobre ---------- */
+  .sobre-grid{
+    display: grid;
+    gap: 32px;
+    align-items: center;
+  }
+  @media (min-width: 860px){
+    .sobre-grid{ grid-template-columns: 0.8fr 1.2fr; }
+  }
+  .foto-reservada{
+    width: 100%;
+    max-width: 420px;
+    aspect-ratio: 3/4;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #e8eef8;
+  }
+  .foto-reservada img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+  }
+
+  /* ---------- localização ---------- */
+  .local-grid{
+    display: grid;
+    gap: 20px;
+  }
+  @media (min-width: 640px){
+    .local-grid{ grid-template-columns: repeat(3, 1fr); }
+  }
+  .local-item{
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .local-item svg{ width: 28px; height: 28px; color: var(--brand); margin-bottom: 10px; }
+  .local-item a{
+    color: var(--brand-dark);
+    font-weight: 700;
+    text-decoration: underline;
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+
+  /* ---------- rodapé ---------- */
+  footer{
+    background: var(--brand-dark);
+    color: var(--white);
+    padding: 40px 0;
+  }
+  footer .rodape-grid{
+    display: grid;
+    gap: 24px;
+  }
+  @media (min-width: 640px){
+    footer .rodape-grid{ grid-template-columns: repeat(2, 1fr); }
+  }
+  footer a{
+    color: var(--white);
+    text-decoration: underline;
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+  footer .legal{
+    margin-top: 24px;
+    font-size: 0.8125rem;
+    color: rgba(255,255,255,0.7);
+  }
+
+  /* ---------- whatsapp flutuante ---------- */
+  .whats-flutuante{
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    z-index: 50;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #25D366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    transition: transform 0.2s var(--ease);
+  }
+  .whats-flutuante:hover{ transform: translateY(-2px) scale(1.04); }
+  .whats-flutuante svg{ width: 28px; height: 28px; fill: #fff; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container topo">
+    <a class="marca" href="#topo">
+      <img src="logo.webp" width="40" height="40" alt="Mascote Fama Frost, um ar-condicionado super-herói azul e branco">
+      Fama Frost
+    </a>
+    <a class="btn btn-whatsapp" href="https://wa.me/5511932360145?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20instala%C3%A7%C3%A3o%20de%20ar-condicionado." target="_blank" rel="noopener noreferrer">
+      Chamar no WhatsApp
+    </a>
+  </div>
+</header>
+
+<main id="topo">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h1 class="revela">Cansado de técnico que marca e não aparece? Aqui você fala direto pelo WhatsApp</h1>
+        <p class="hero-sub revela">Instalação e manutenção de ar-condicionado em AlphaVille e região. Você combina o horário e fala com quem vai até a sua casa, sem intermediário.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary revela" href="https://wa.me/5511932360145?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer">Chamar no WhatsApp agora</a>
+          <a class="btn btn-outline revela" href="#servicos">Ver serviços</a>
+        </div>
+      </div>
+      <div class="hero-avatar-wrap revela">
+        <div class="hero-avatar-bg" aria-hidden="true"></div>
+        <div class="hero-avatar-float">
+          <img src="mascote-hero.webp" width="640" height="640" alt="Mascote Fama Frost, um ar-condicionado super-herói azul e branco, símbolo da marca">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos">
+    <div class="container">
+      <h2 class="revela">Serviços</h2>
+      <p class="revela" style="color:var(--muted); max-width:60ch;">Chama pelo WhatsApp e diz o que está acontecendo com o aparelho. A gente já chega sabendo o que precisa ser feito.</p>
+      <div class="cards">
+        <div class="card revela">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="8" rx="1"></rect><path d="M7 16v2M17 16v2M7 8V6M17 8V6"></path></svg>
+          <h3>Instalação</h3>
+          <p>Instalação completa do seu aparelho, com acabamento limpo e testado na hora.</p>
+        </div>
+        <div class="card revela">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 3"></path></svg>
+          <h3>Manutenção preventiva</h3>
+          <p>Revisão periódica para o aparelho não parar justamente no dia mais quente.</p>
+        </div>
+        <div class="card revela">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"></path></svg>
+          <h3>Higienização</h3>
+          <p>Limpeza completa de filtros e serpentina, ar mais saudável dentro de casa.</p>
+        </div>
+        <div class="card revela">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"></path></svg>
+          <h3>Manutenção corretiva</h3>
+          <p>Aparelho gelando pouco ou fazendo barulho? Diagnóstico e reparo no local.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section>
+    <div class="container">
+      <h2 class="revela">Quem já chamou a Fama Frost</h2>
+      <div class="depo-grid">
+        <div class="depo revela">
+          <p>"Chamei de manhã pelo WhatsApp e no mesmo dia já estava instalado. Não precisei ligar nem esperar retorno."</p>
+          <div class="autor">Marcos T., Vila Assunção</div>
+          <span class="marcador">[PLACEHOLDER: trocar por depoimento real]</span>
+        </div>
+        <div class="depo revela">
+          <p>"Fazia tempo que o ar só fazia barulho e gelava pouco. Veio, achou o problema na hora e mostrou o que estava sujo."</p>
+          <div class="autor">Camila R., Jardim</div>
+          <span class="marcador">[PLACEHOLDER: trocar por depoimento real]</span>
+        </div>
+        <div class="depo revela">
+          <p>"Combinei tudo pelo celular, sem precisar ficar ligando pra confirmar horário. Chegou no horário combinado."</p>
+          <div class="autor">Roberto S., Santo André</div>
+          <span class="marcador">[PLACEHOLDER: trocar por depoimento real]</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section>
+    <div class="container sobre-grid">
+      <div class="foto-reservada revela">
+        <img src="tecnico.webp" alt="Técnico da Fama Frost instalando suporte de ar-condicionado" width="397" height="487" loading="lazy">
+      </div>
+      <div class="revela">
+        <h2>Sobre a Fama Frost</h2>
+        <p>A Fama Frost atende AlphaVille e região, saindo da Avenida Ampere. O primeiro contato é sempre pelo WhatsApp: você manda uma mensagem, descreve o problema e já recebe um horário, sem precisar telefonar nem esperar retorno de ligação.</p>
+        <p>Garantia do serviço e prazo de atendimento.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCALIZAÇÃO -->
+  <section>
+    <div class="container">
+      <h2 class="revela">Localização e horário</h2>
+      <div class="local-grid">
+        <div class="local-item revela">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>
+          <h3>Endereço</h3>
+          <p>Avenida Ampere 256,<br>Santo André-SP</p>
+          <a href="https://www.google.com/maps/search/?api=1&query=Avenida+Ampere+256+Santo+Andre+SP+Brasil" target="_blank" rel="noopener noreferrer">Ver no Google Maps</a>
+        </div>
+        <div class="local-item revela">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 3"></path></svg>
+          <h3>Horário de funcionamento</h3>
+          <p> 8h até as 17h</p>
+        </div>
+        <div class="local-item revela">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          <h3>Resposta rápida</h3>
+          <p>Chame agora e a conversa já começa pelo WhatsApp, sem precisar ligar.</p>
+          <a href="https://wa.me/5511932360145?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20falar%20sobre%20o%20meu%20ar-condicionado." target="_blank" rel="noopener noreferrer">Chamar agora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container rodape-grid">
+    <div>
+      <h3 style="color:#fff;">Fama Frost</h3>
+      <p style="color:rgba(255,255,255,0.85);">Atendimento em AlphaVille e região, direto pelo WhatsApp.</p>
+      <a href="https://wa.me/5511932360145" target="_blank" rel="noopener noreferrer">WhatsApp: (11) 93236-0145</a><br>
+      <a href="https://www.google.com/maps/search/?api=1&query=Avenida+Ampere+256+Santo+Andre+SP+Brasil" target="_blank" rel="noopener noreferrer">Avenida Ampere 256, Santo André-SP</a>
+    </div>
+    <div>
+      <h3 style="color:#fff;">Redes</h3>
+      <a href="[PLACEHOLDER: link do Instagram]" target="_blank" rel="noopener noreferrer">Instagram</a><br>
+      <a href="[PLACEHOLDER: link do Facebook]" target="_blank" rel="noopener noreferrer">Facebook</a>
+    </div>
+    <div class="legal">
+      CNPJ: [PLACEHOLDER: 00.000.000/0001-00] · © 2026 Fama Frost
+    </div>
+  </div>
+</footer>
+
+<a class="whats-flutuante" href="https://wa.me/5511932360145?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20falar%20com%20a%20Frost%20Fama." target="_blank" rel="noopener noreferrer" aria-label="Chamar Fama Frost no WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.5 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.6-.1-.4-.1-.9-.3-1.5-.6-2.7-1.2-4.4-3.9-4.6-4.1-.1-.2-1.1-1.4-1.1-2.7 0-1.3.7-1.9.9-2.2.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5.2.5.7 1.8.8 1.9.1.2.1.3 0 .5-.1.2-.1.3-.3.5l-.4.5c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.6-.7c.2-.3.4-.2.6-.1l1.7.8c.2.1.3.1.4.3.1.2.1 1-.1 1.6z"></path></svg>
+</a>
+
+<script>
+(function(){
+  if(!('IntersectionObserver' in window)){
+    document.querySelectorAll('.revela').forEach(function(el){ el.classList.add('visivel'); });
+    return;
+  }
+  var obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if(entry.isIntersecting){
+        entry.target.classList.add('visivel');
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.revela').forEach(function(el){ obs.observe(el); });
+})();
+</script>
+
+</body>
+</html>
